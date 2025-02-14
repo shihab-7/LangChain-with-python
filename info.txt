@@ -22,3 +22,7 @@ repo id ==> mistralai/Mistral-7B-Instruct-v0.3
 setup hugging face pip install langchain-huggingface
 then import inferenceclient from huggingface_hub
 then create an object using inferenceclient, with that object call textgeneration()function to generate response
+
+
+global static folder handle ==>
+settings.py a = STATICFILES_DIRS = [BASE_DIR/'static',] ei line ta add kore nite hoy global static folder er jonno karon project global template r static file auto handle korte pare na .
